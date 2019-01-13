@@ -1,0 +1,1136 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FOCUS</title>
+
+
+
+    <link href="assets/css/light.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<div class="height-page">
+
+    <div class="external-el-wrap external-header f-block visible-md visible-lg">
+        <div class="btn-close-block">
+            <i class="icons icon-close"></i>
+        </div>
+        <div class="banner-wrap">
+            <a href="news_item#" target="_blank"><img src="assets/img/Bannner.jpg" alt="Text Alt"></a>
+        </div>
+    </div>
+
+    <div class="page-content">
+
+        <header class="main-header" id="main-header">
+            <div class="content-w">
+
+                <div class="row">
+                    <div class="header-content header-content__top clearfix">
+
+                        <div class="col-md-2">
+                            <div class="header-content__left">
+                                <div class="header-content__logo">
+                                    <a href="index.html"><i class="icons icon-logo"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8 no-relative-m">
+                            <div class="header-content__center">
+                                <div class="header-menu">
+                                    <div class="header-menu__visible">
+                                        <ul class="header-menu__list">
+                                            <li class="header-menu__item"><a href="news_list" class="header-menu__link">СТРАНА</a></li>
+                                            <li class="header-menu__item"><a href="news_list" class="header-menu__link">ДЕНЬГИ</a></li>
+                                            <li class="header-menu__item"><a href="news_list" class="header-menu__link">МИР</a></li>
+                                            <li class="header-menu__item"><a href="news_list" class="header-menu__link">КРАСИВАЯ СТРАНА</a></li>
+                                            <li class="header-menu__item"><a href="news_list" class="header-menu__link">ДЛИННЫЙ ФОКУС</a></li>
+                                            <li class="header-menu__item"><a href="news_list" class="header-menu__link">КАРТИНА ДНЯ</a></li>
+                                            <li class="header-menu__item"><a href="news_list" class="header-menu__link">СПОРТ</a></li>
+                                            <li class="header-menu__item"><a href="news_item#" class="header-menu__link">БЛОГИ</a></li>
+                                            <li class="header-menu__item burger-btn"><a class="burger burger3 burger-deskt" href="news_item#"><span></span></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="header-menu__hidden">
+                                        <ul class="header-menu__list">
+                                            <li class="header-menu__item"><a href="news_item#" class="header-menu__link">Все Статьи</a></li>
+                                            <li class="header-menu__item"><a href="news_item#" class="header-menu__link">Спецтемы</a></li>
+                                            <li class="header-menu__item"><a href="news_item#" class="header-menu__link">Стиль жизни</a></li>
+                                            <li class="header-menu__item"><a href="news_item#" class="header-menu__link">Культура</a></li>
+                                            <li class="header-menu__item"><a href="news_item#" class="header-menu__link">Технологии и наука</a></li>
+                                            <li class="header-menu__item mob"><a href="news_item#" class="header-menu__link">Рейтинги фокуса</a></li>
+                                            <li class="header-menu__item mob"><a href="news_item#" class="header-menu__link">Мой фокус</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 visible-md visible-lg">
+                            <div class="header-content__right">
+                                <div class="small-slider small-slider__head">
+
+                                    <div class="slide-item">
+                                        <a href="news_item#" class="slide-link">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/Ekspert.png" alt="">
+                                            </div>
+                                            <div class="slide-text">
+                                                <div class="vert-center-text">
+                                                    <p class="name">Королева Мать</p>
+                                                    <p class="rank">ЭКСПЕРТ</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="slide-item">
+                                        <a href="news_item#" class="slide-link">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/Top_2.png" alt="">
+                                            </div>
+                                            <div class="slide-text">
+                                                <div class="vert-center-text">
+                                                    <p class="name">Король отец</p>
+                                                    <p class="rank">ЭКСПЕРТ</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="slide-item">
+                                        <a href="news_item#" class="slide-link">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/Ekspert.png" alt="">
+                                            </div>
+                                            <div class="slide-text">
+                                                <div class="vert-center-text">
+                                                    <p class="name">Королева Мать</p>
+                                                    <p class="rank">ЭКСПЕРТ</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="slide-item">
+                                        <a href="news_item#" class="slide-link">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/Top_2.png" alt="">
+                                            </div>
+                                            <div class="slide-text">
+                                                <div class="vert-center-text">
+                                                    <p class="name">Король отец</p>
+                                                    <p class="rank">ЭКСПЕРТ</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="slide-item">
+                                        <a href="news_item#" class="slide-link">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/Top_2.png" alt="">
+                                            </div>
+                                            <div class="slide-text">
+                                                <div class="vert-center-text">
+                                                    <p class="name">Король отец</p>
+                                                    <p class="rank">ЭКСПЕРТ</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="header-content header-content__bottom clearfix">
+
+                        <div class="col-md-2 visible-md visible-lg">
+                            <div class="header-content__left">
+                                <div class="header-content__reitingi">
+                                    <a href="100bogatyh" class="link-reitingi text-btn-r-i"><span>Рейтинги ФОКУСА</span><i class="icons icon-reitingi"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8 visible-md visible-lg">
+                            <div class="header-content__center">
+                                <div class="header-menu__visible">
+                                    <ul class="header-menu__list">
+                                        <li class="header-menu__item"><a href="news_item#" class="header-menu__link">СТРАНА</a></li>
+                                        <li class="header-menu__item"><a href="news_item#" class="header-menu__link">ДЕНЬГИ</a></li>
+                                        <li class="header-menu__item"><a href="news_item#" class="header-menu__link">МИР</a></li>
+                                        <li class="header-menu__item"><a href="news_item#" class="header-menu__link">КРАСИВАЯ СТРАНА</a></li>
+                                        <li class="header-menu__item"><a href="news_item#" class="header-menu__link">ДЛИННЫЙ ФОКУС</a></li>
+                                        <li class="header-menu__item"><a href="news_item#" class="header-menu__link">КАРТИНА ДНЯ</a></li>
+                                        <li class="header-menu__item"><a href="news_item#" class="header-menu__link">СПОРТ</a></li>
+                                        <li class="header-menu__item"><a href="news_item#" class="header-menu__link">БЛОГИ</a></li>
+                                    </ul>
+                                </div>
+                                <p class="authoriz-text">Войдите в свою <a href="news_item#" class="highlighted-text call-popup-head" data-popup-name="signIn-popup">учетную запись</a> Фокус или</p>
+                                <p class="authoriz-text"><a href="news_item#" class="highlighted-text call-popup-head" data-popup-name="registration-popup">зарегистрируйтесь</a>, чтобы видеть местные новости</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="header-content__right">
+                                <div class="header-content__user-block">
+                                    <div class="btn-sign-in-header text-btn-r-i call-popup-head" data-popup-name="signIn-popup">
+                                        <span>Вход</span><i class="icons icon-user"></i>
+                                    </div>
+                                    
+                                    
+                                </div>
+                                <div class="header-content__search-btn">
+                                    <div class="btn-search-header text-btn-r-i call-popup-head" data-popup-name="search-popup">
+                                        <span>Поиск</span><i class="icons icon-search"></i>
+                                    </div>
+                                </div>
+                                <div class="mob-burger">
+                                    <a class="burger burger3 burger-mob" href="news_item#"><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="header-popup" style="display: none;">
+                <div class="content-w">
+                    <div class="popup-content">
+                        <div class="btn-close-block lightgrey">
+                            <i class="icons icon-close"></i>
+                        </div>
+
+                        <div class="popup-header-item header-search" id="search-popup">
+                            <form action="news_item" name="header-search-form" class="search-form">
+                                <div class="form-group search-grop">
+                                    <input type="text" name="header-search-input" class="search-input" placeholder="Введите текст для поиска">
+                                    <button class="input-icon-right btn-search-submit">
+                                        <i class="icons icon-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="popup-header-item users-popup" id="registration-popup">
+                            <p class="popup-title">Регистрация</p>
+                            <div class="row center-or">
+                                <div class="col-md-6">
+                                    <div class="form-wrap">
+                                        <form action="news_item" name="header-register-form" class="register-form">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="text" name="header-reg-name" class="reg-name-input" placeholder="Имя">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="text" name="header-reg-surname" class="reg-surname-input" placeholder="Фамилия">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" name="header-reg-mail" class="reg-mail-input" placeholder="E-mail">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" name="header-reg-pass" class="reg-pass-input" placeholder="Пароль">
+                                            </div>
+                                            <div class="form-group submit-wrap">
+                                                <button class="btn-main" id="submit-reg-form">Зарегистрироваться</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="social-wrap">
+                                        <p class="head-text">Зарегистрироваться через:</p>
+                                        <div class="btns-wrap">
+                                            <a href="news_item" class="btn-main">Facebook</a>
+                                            <a href="news_item" class="btn-main">Twitter</a>
+                                            <a href="news_item" class="btn-main">Google+</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="popup-header-item users-popup" id="signIn-popup">
+                            <p class="popup-title">Вход</p>
+                            <div class="row center-or">
+                                <div class="col-md-6">
+                                    <div class="form-wrap">
+                                        <form action="news_item" name="header-signIn-form" class="signIn-form">
+                                            <div class="form-group">
+                                                <input type="text" name="header-signIn-mail" class="signIn-mail-input" placeholder="E-mail">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" name="header-signIn-pass" class="signIn-pass-input" placeholder="Пароль">
+                                            </div>
+                                            <div class="form-group text-btns clearfix">
+                                                <div class="text-btn-r-i" data-popup-name="update-pass">
+                                                    <span>Забыли Ваш пароль?</span>
+                                                </div>
+                                                <div class="text-btn-r-i call-popup-head" data-popup-name="registration-popup">
+                                                    <span>Нет учетной записи?</span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group submit-wrap">
+                                                <button class="btn-main" id="submit-signIn-form">Войти</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="social-wrap">
+                                        <p class="head-text">Зарегистрироваться через:</p>
+                                        <div class="btns-wrap">
+                                            <a href="news_item" class="btn-main">Facebook</a>
+                                            <a href="news_item" class="btn-main">Twitter</a>
+                                            <a href="news_item" class="btn-main">Google+</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </header>
+<div class="content-block">
+    <div class="content-w">
+
+        <div class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item"><a href="news_item" class="breadcrumbs__link">Главная</a><i class="icons icon-arrow-right"></i></li>
+                <li class="breadcrumbs__item"><a href="news_item" class="breadcrumbs__link">Страна</a><i class="icons icon-arrow-right"></i></li>
+                <li class="breadcrumbs__item"><span class="breadcrumbs__last">Lorem ipsum dolor sit amet </span></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+<div class="content-block side-r section-1">
+    <div class="content-w">
+
+        <div class="content-block__content-wrap no-pad-top">
+            <div class="content-block__row clearfix">
+                <div class="content-block__col content-block__col_left">
+
+                    <div class="main-post border-top">
+
+                        <div class="main-post__header">
+                            <h1 class="main-post__title">Lorem ipsum dolor sit amet</h1>
+
+                            <div class="main-post__total-info clearfix">
+                                <div class="date-post">
+                                    <p class="date-wrap"><span class="date">22-08-2012</span><span class="time">12:56</span></p>
+                                </div>
+                                <div class="views-share-el">
+                                    <span class="count-item"><i class="icons icon-view"></i><span>2 345</span></span>
+                                    <span class="count-item"><i class="icons icon-share"></i><span>11 234</span></span>
+                                </div>
+                            </div>
+
+                            <div class="main-post__social-head">
+                                <div class="social-list">
+                                    <a href="news_item" class="social-link" target="_blank"><i class="icons icon-facebook"></i></a>
+                                    <a href="news_item" class="social-link" target="_blank"><i class="icons icon-twitter"></i></a>
+                                    <a href="news_item" class="social-link" target="_blank"><i class="icons icon-youtube"></i></a>
+                                    <a href='javascript:window.print(); void 0;' class="social-link"><i class="icons icon-printer"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-post__body">
+                            <div class="img-with-text full-width-tablet">
+                                <div class="img-wrap">
+                                    <img src="assets/img/News/news_page_1.jpg" alt="Post title">
+                                </div>
+                                <div class="img-text">
+                                    <p>Lorem ipsum dolor sit amet Ut enim ad minim veniamquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                                </div>
+                            </div>
+                            <h3 class="sub-title">Lorem ipsum dolor sit ametUt enim ad minim veniamquis nostrud exercit ation ullamco laboris nisi ut aliquip ex ea commodo consequat</h3>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem </p>
+                            <h3 class="sub-title">Lorem ipsum dolor sit ametUt enim ad minim veniamquis nostrud exercit</h3>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                            <div class="content-block__content-wrap full-width-tablet visible-xs visible-sm">
+
+                                <div class="external-el-wrap">
+
+                                    <div class="banner-bung">
+                                        BANNER
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="read-also full-width-tablet">
+                                <div class="left-text"><span>Читайте также:</span></div>
+                                <div class="posts-list">
+                                    <a href="news_item" class="post-link">Lorem ipsum dolor sit ametUt enim ad minim veniamquis nostrud exercitation ulamco laboris nisi ut aliquip ex ea commodo consequat</a>
+                                </div>
+                            </div>
+                            <h3 class="sub-title">Lorem ipsum dolor sit ametUt enim ad minim veniamquis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat</h3>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem</p>
+                            <div class="img-with-text full-width-tablet">
+                                <div class="img-wrap">
+                                    <img src="assets/img/News/news_page_2.jpg" alt="Post title">
+                                </div>
+                                <div class="img-text">
+                                    <p>Lorem ipsum dolor sit amet Ut enim ad minim veniamquis nostrud exercitation ullamco laboris nisi ut ali</p>
+                                </div>
+                            </div>
+                            <h3 class="sub-title">Lorem ipsum dolor sit ametUt enim ad minim</h3>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem</p>
+                            <div class="related-posts full-width-tablet">
+                                <div class="top-title"><span>Статьи по теме</span></div>
+                                <div class="posts-list">
+                                    <a href="news_item" class="post-link">Lorem ipsum dolor sit amet Ut enim ad minim veniamquis nostrud exercitation ulamco laboris nisi ut aliquip ex ea commodo consequat</a>
+                                    <a href="news_item" class="post-link">Lorem ipsum dolor sit ametUt enim ad minim veniamquis nostrud exercitation</a>
+                                    <a href="news_item" class="post-link">Lorem ipsum dolor sit ametUt enim ad minim veniamquis nostrud exercitation ulamco laboris nisi ut aliquip ex ea commodo</a>
+                                </div>
+                            </div>
+                            <h3 class="sub-title">Lorem ipsum dolor sit ametUt enim ad minim</h3>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem</p>
+                        </div>
+
+                        <div class="content-block__content-wrap full-width-tablet visible-xs visible-sm">
+
+                            <div class="external-el-wrap">
+
+                                <div class="banner-bung">
+                                    BANNER
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="main-post__footer">
+                            <div class="main-post__tags">
+                                <div class="title-text">Теги:</div>
+                                <ul class="tags-list">
+                                    <li class="tag-item"><a href="news_item">Мир</a></li>
+                                    <li class="tag-item"><a href="news_item">Страна</a></li>
+                                    <li class="tag-item"><a href="news_item">Президент</a></li>
+                                    <li class="tag-item"><a href="news_item">Украина</a></li>
+                                    <li class="tag-item"><a href="news_item">Политика</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="main-post__social-footer">
+                                <div class="title-text">Поделиться:</div>
+                                <div class="social-list">
+                                    <a href="news_item" class="social-link" target="_blank"><i class="icons icon-facebook"></i></a>
+                                    <a href="news_item" class="social-link" target="_blank"><i class="icons icon-twitter"></i></a>
+                                    <a href="news_item" class="social-link" target="_blank"><i class="icons icon-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="f-comments f-block border-top mar-bot-20-tablet">
+                        <div class="marker marker__t-l">
+                            <a href="news_item" class="marker-text link">Комментарии</a>
+                        </div>
+
+                        
+                        <div class="f-comments__no-comments">
+                            <div class="icon-wrap"><i class="icons icon-attention"></i></div>
+                            <p class="no-comments-text">Оставлять комментарии могут только подписчики. <a href="news_item#main-header" class="highlighted-text go-popup-head" data-popup-name="registration-popup">Зарегистрируйтесь</a> или <a href="news_item#main-header" class="highlighted-text go-popup-head" data-popup-name="signIn-popup">авторизуйтесь</a>, чтобы иметь возможность оставлять комментарии.</p>
+                        </div>
+
+                        <div class="f-comments__form">
+                            <div class="f-comments__user-avatar">
+                                <div class="img-wrap">
+                                    <img src="assets/img/News/comments_user_1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="f-comments__form-wrap">
+                                <form action="news_item" method="post" name="comments-form">
+                                    <div class="form-group">
+                                        <textarea name="comments-text" placeholder="Оставить комментарий..."></textarea>
+                                    </div>
+                                    <div class="form-group submit-wrap">
+                                        <button class="btn-main submit-comments-message">Добавить комментарий</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="f-comments__list border-top">
+
+                            <div class="f-comments__item">
+                                <div class="f-comments__item-header clearfix">
+                                    <div class="f-comments__user-avatar">
+                                        <div class="img-wrap">
+                                            <span class="fio">AB</span>
+                                        </div>
+                                    </div>
+                                    <div class="f-comments__user-name">Анна Васильева</div>
+                                    <div class="f-comments__like-block">
+                                        <div class="like-item like">
+                                            <i class="icons icon-like"></i>
+                                            <span class="count">5</span>
+                                        </div>
+                                        <div class="like-item dislike">
+                                            <i class="icons icon-dislike"></i>
+                                            <span class="count">0</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="f-comments__item-message">
+                                    <p class="message-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+                                </div>
+                                <div class="f-comments__item-footer clearfix">
+                                    <div class="f-comments__item-date">
+                                        <span class="date">22-08-2012</span>
+                                        <span class="time">12:56</span>
+                                    </div>
+                                    <div class="f-comments__reply">
+                                        <a href="news_item#" class="text-btn-l-i btn-reply-comment"><i class="icons icon-reply"></i><span class="text">Ответить</span></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="f-comments__list">
+
+                                <div class="f-comments__item">
+                                    <div class="f-comments__item-header clearfix">
+                                        <div class="f-comments__user-avatar">
+                                            <div class="img-wrap">
+                                                <span class="fio">РР</span>
+                                            </div>
+                                        </div>
+                                        <div class="f-comments__user-name">Роман Романов</div>
+                                        <div class="f-comments__like-block">
+                                            <div class="like-item like">
+                                                <i class="icons icon-like"></i>
+                                                <span class="count">5</span>
+                                            </div>
+                                            <div class="like-item dislike">
+                                                <i class="icons icon-dislike"></i>
+                                                <span class="count">0</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="f-comments__item-message">
+                                        <p class="message-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+                                    </div>
+                                    <div class="f-comments__item-footer clearfix">
+                                        <div class="f-comments__item-date">
+                                            <span class="date">22-08-2012</span>
+                                            <span class="time">12:56</span>
+                                        </div>
+                                        <div class="f-comments__reply">
+                                            <a href="news_item#" class="text-btn-l-i btn-reply-comment"><i class="icons icon-reply"></i><span class="text">Ответить</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="f-comments__item">
+                                    <div class="f-comments__item-header clearfix">
+                                        <div class="f-comments__user-avatar">
+                                            <div class="img-wrap">
+                                                <img src="assets/img/News/comments_user_2.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="f-comments__user-name">Сергей Петров</div>
+                                        <div class="f-comments__like-block">
+                                            <div class="like-item like">
+                                                <i class="icons icon-like"></i>
+                                                <span class="count">5</span>
+                                            </div>
+                                            <div class="like-item dislike">
+                                                <i class="icons icon-dislike"></i>
+                                                <span class="count">0</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="f-comments__item-message">
+                                        <p class="message-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+                                    </div>
+                                    <div class="f-comments__item-footer clearfix">
+                                        <div class="f-comments__item-date">
+                                            <span class="date">22-08-2012</span>
+                                            <span class="time">12:56</span>
+                                        </div>
+                                        <div class="f-comments__reply">
+                                            <a href="news_item#" class="text-btn-l-i btn-reply-comment"><i class="icons icon-reply"></i><span class="text">Ответить</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="f-comments__list">
+
+                                    <div class="f-comments__item">
+                                        <div class="f-comments__item-header clearfix">
+                                            <div class="f-comments__user-avatar">
+                                                <div class="img-wrap">
+                                                    <span class="fio">РР</span>
+                                                </div>
+                                            </div>
+                                            <div class="f-comments__user-name">Роман Романов</div>
+                                            <div class="f-comments__like-block">
+                                                <div class="like-item like">
+                                                    <i class="icons icon-like"></i>
+                                                    <span class="count">5</span>
+                                                </div>
+                                                <div class="like-item dislike">
+                                                    <i class="icons icon-dislike"></i>
+                                                    <span class="count">0</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="f-comments__item-message">
+                                            <p class="message-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+                                        </div>
+                                        <div class="f-comments__item-footer clearfix">
+                                            <div class="f-comments__item-date">
+                                                <span class="date">22-08-2012</span>
+                                                <span class="time">12:56</span>
+                                            </div>
+                                            <div class="f-comments__reply">
+                                                <a href="news_item#" class="text-btn-l-i btn-reply-comment"><i class="icons icon-reply"></i><span class="text">Ответить</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="f-comments__item">
+                                        <div class="f-comments__item-header clearfix">
+                                            <div class="f-comments__user-avatar">
+                                                <div class="img-wrap">
+                                                    <img src="assets/img/News/comments_user_2.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="f-comments__user-name">Сергей Петров</div>
+                                            <div class="f-comments__like-block">
+                                                <div class="like-item like">
+                                                    <i class="icons icon-like"></i>
+                                                    <span class="count">5</span>
+                                                </div>
+                                                <div class="like-item dislike">
+                                                    <i class="icons icon-dislike"></i>
+                                                    <span class="count">0</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="f-comments__item-message">
+                                            <p class="message-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+                                        </div>
+                                        <div class="f-comments__item-footer clearfix">
+                                            <div class="f-comments__item-date">
+                                                <span class="date">22-08-2012</span>
+                                                <span class="time">12:56</span>
+                                            </div>
+                                            <div class="f-comments__reply">
+                                                <a href="news_item#" class="text-btn-l-i btn-reply-comment"><i class="icons icon-reply"></i><span class="text">Ответить</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="f-comments__item">
+                                <div class="f-comments__item-header clearfix">
+                                    <div class="f-comments__user-avatar">
+                                        <div class="img-wrap">
+                                            <span class="fio">AB</span>
+                                        </div>
+                                    </div>
+                                    <div class="f-comments__user-name">Анна Васильева</div>
+                                    <div class="f-comments__like-block">
+                                        <div class="like-item like">
+                                            <i class="icons icon-like"></i>
+                                            <span class="count">5</span>
+                                        </div>
+                                        <div class="like-item dislike">
+                                            <i class="icons icon-dislike"></i>
+                                            <span class="count">0</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="f-comments__item-message">
+                                    <p class="message-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+                                </div>
+                                <div class="f-comments__item-footer clearfix">
+                                    <div class="f-comments__item-date">
+                                        <span class="date">22-08-2012</span>
+                                        <span class="time">12:56</span>
+                                    </div>
+                                    <div class="f-comments__reply">
+                                        <a href="news_item#" class="text-btn-l-i btn-reply-comment"><i class="icons icon-reply"></i><span class="text">Ответить</span></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="f-comments__more-comments visible-xs visible-sm">
+                            <a href="news_item" class="btn-more-comments highlighted-text">Больше комментариев</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <aside class="content-block__col content-block__col_aside">
+
+                    <div class="posts-top__wrap f-block border-top">
+                        <div class="marker marker__t-l">
+                            <a href="news_item" class="marker-text link">ТОП 10</a>
+                        </div>
+
+                        <div class="posts-top__type-tabs border-bottom">
+                            <a href="news_item#" class="text-btn-l-i active" data-type="recommend"><i class="icons icon-star"></i><span>Рекомендуем</span></a>
+                            <a href="news_item#" class="text-btn-l-i" data-type="read"><i class="icons icon-view"></i><span>Читают</span></a>
+                            <a href="news_item#" class="text-btn-l-i" data-type="share"><i class="icons icon-share"></i><span>Делятся</span></a>
+                        </div>
+
+                        <div class="posts-top__list">
+
+                            <div class="posts-top__item">
+                                <div class="posts-top__photo">
+                                    <div class="img-wrap">
+                                        <a href="news_item"><img src="assets/img/Top_1.png" alt=""></a>
+                                    </div>
+                                    <span class="posts-top__num">1</span>
+                                </div>
+                                <div class="posts-top__title-text">
+                                    <a href="news_item" class="posts-text__link"><span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</span></a>
+                                </div>
+                                <div class="posts-top__info-post">
+                                    <span class="count-item"><i class="icons icon-view"></i><span>2 345</span></span>
+                                    <span class="count-item"><i class="icons icon-share"></i><span>11 234</span></span>
+                                </div>
+                            </div>
+
+                            <div class="posts-top__item">
+                                <div class="posts-top__photo">
+                                    <div class="img-wrap">
+                                        <a href="news_item"><img src="assets/img/Top_2.png" alt=""></a>
+                                    </div>
+                                    <span class="posts-top__num">2</span>
+                                </div>
+                                <div class="posts-top__title-text">
+                                    <a href="news_item" class="posts-text__link"><span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</span></a>
+                                </div>
+                                <div class="posts-top__info-post">
+                                    <span class="count-item"><i class="icons icon-view"></i><span>2 345</span></span>
+                                    <span class="count-item"><i class="icons icon-share"></i><span>11 234</span></span>
+                                </div>
+                            </div>
+
+                            <div class="posts-top__item">
+                                <div class="posts-top__photo">
+                                    <div class="img-wrap">
+                                        <a href="news_item"><img src="assets/img/Top_3.png" alt=""></a>
+                                    </div>
+                                    <span class="posts-top__num">3</span>
+                                </div>
+                                <div class="posts-top__title-text">
+                                    <a href="news_item" class="posts-text__link"><span class="text">Lorem ipsum dolor sit amet, adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</span></a>
+                                </div>
+                                <div class="posts-top__info-post">
+                                    <span class="count-item"><i class="icons icon-view"></i><span>2 345</span></span>
+                                    <span class="count-item"><i class="icons icon-share"></i><span>11 234</span></span>
+                                </div>
+                            </div>
+
+                            <div class="posts-top__item">
+                                <div class="posts-top__photo">
+                                    <div class="img-wrap">
+                                        <a href="news_item"><img src="assets/img/Top_4.png" alt=""></a>
+                                    </div>
+                                    <span class="posts-top__num">4</span>
+                                </div>
+                                <div class="posts-top__title-text">
+                                    <a href="news_item" class="posts-text__link"><span class="text">Lorem ipsum dolor sit amet, adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</span></a>
+                                </div>
+                                <div class="posts-top__info-post">
+                                    <span class="count-item"><i class="icons icon-view"></i><span>2 345</span></span>
+                                    <span class="count-item"><i class="icons icon-share"></i><span>11 234</span></span>
+                                </div>
+                            </div>
+
+                            <div class="posts-top__item no-photo">
+                                <div class="posts-top__photo">
+                                    <div class="img-wrap">
+                                        <a href="news_item"><i class="icons icon-star"></i></a>
+                                    </div>
+                                    <span class="posts-top__num">5</span>
+                                </div>
+                                <div class="posts-top__title-text">
+                                    <a href="news_item" class="posts-text__link"><span class="text">Lorem ipsum dolor sit amet, adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</span></a>
+                                </div>
+                                <div class="posts-top__info-post">
+                                    <span class="count-item"><i class="icons icon-view"></i><span>2 345</span></span>
+                                    <span class="count-item"><i class="icons icon-share"></i><span>11 234</span></span>
+                                </div>
+                            </div>
+
+                            <div class="posts-top__item">
+                                <div class="posts-top__photo">
+                                    <div class="img-wrap">
+                                        <a href="news_item"><img src="assets/img/Top_5.png" alt=""></a>
+                                    </div>
+                                    <span class="posts-top__num">5</span>
+                                </div>
+                                <div class="posts-top__title-text">
+                                    <a href="news_item" class="posts-text__link"><span class="text">Lorem ipsum dolor sit amet, adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</span></a>
+                                </div>
+                                <div class="posts-top__info-post">
+                                    <span class="count-item"><i class="icons icon-view"></i><span>2 345</span></span>
+                                    <span class="count-item"><i class="icons icon-share"></i><span>11 234</span></span>
+                                </div>
+                            </div>
+
+                            <div class="posts-top__item">
+                                <div class="posts-top__photo">
+                                    <div class="img-wrap">
+                                        <a href="news_item"><img src="assets/img/Top_6.png" alt=""></a>
+                                    </div>
+                                    <span class="posts-top__num">7</span>
+                                </div>
+                                <div class="posts-top__title-text">
+                                    <a href="news_item" class="posts-text__link"><span class="text">Lorem ipsum dolor sit amet, adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</span></a>
+                                </div>
+                                <div class="posts-top__info-post">
+                                    <span class="count-item"><i class="icons icon-view"></i><span>2 345</span></span>
+                                    <span class="count-item"><i class="icons icon-share"></i><span>11 234</span></span>
+                                </div>
+                            </div>
+
+                            <div class="posts-top__item">
+                                <div class="posts-top__photo">
+                                    <div class="img-wrap">
+                                        <a href="news_item"><img src="assets/img/Top_7.png" alt=""></a>
+                                    </div>
+                                    <span class="posts-top__num">8</span>
+                                </div>
+                                <div class="posts-top__title-text">
+                                    <a href="news_item" class="posts-text__link"><span class="text">Lorem ipsum dolor sit amet, adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</span></a>
+                                </div>
+                                <div class="posts-top__info-post">
+                                    <span class="count-item"><i class="icons icon-view"></i><span>2 345</span></span>
+                                    <span class="count-item"><i class="icons icon-share"></i><span>11 234</span></span>
+                                </div>
+                            </div>
+
+                            <div class="posts-top__item no-photo">
+                                <div class="posts-top__photo">
+                                    <div class="img-wrap">
+                                        <a href="news_item"><i class="icons icon-star"></i></a>
+                                    </div>
+                                    <span class="posts-top__num">9</span>
+                                </div>
+                                <div class="posts-top__title-text">
+                                    <a href="news_item" class="posts-text__link"><span class="text">Lorem ipsum dolor sit amet, adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</span></a>
+                                </div>
+                                <div class="posts-top__info-post">
+                                    <span class="count-item"><i class="icons icon-view"></i><span>2 345</span></span>
+                                    <span class="count-item"><i class="icons icon-share"></i><span>11 234</span></span>
+                                </div>
+                            </div>
+
+                            <div class="posts-top__item no-photo">
+                                <div class="posts-top__photo">
+                                    <div class="img-wrap">
+                                        <a href="news_item"><i class="icons icon-star"></i></a>
+                                    </div>
+                                    <span class="posts-top__num">10</span>
+                                </div>
+                                <div class="posts-top__title-text">
+                                    <a href="news_item" class="posts-text__link"><span class="text">Lorem ipsum dolor sit amet, adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</span></a>
+                                </div>
+                                <div class="posts-top__info-post">
+                                    <span class="count-item"><i class="icons icon-view"></i><span>2 345</span></span>
+                                    <span class="count-item"><i class="icons icon-share"></i><span>11 234</span></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="f-block external-el-wrap visible-lg visible-md">
+
+                        <div class="banner-bung" style="padding: 70% 0;">
+                            BANNER
+                        </div>
+
+                    </div>
+
+                    <div class="f-block border-top pad-top-4-8em">
+                        <div class="marker marker__t-l">
+                            <a href="news_item" class="marker-text link">Все публикации раздела</a>
+                        </div>
+
+                        <div class="row mar-row--5-mob">
+
+                            <div class="col-xs-6 col-md-12 pad-col-5-mob">
+                                <div class="post-card post-card__sm">
+                                    <div class="post-card__img-wrap">
+                                        <div class="post-card__img">
+                                            <div class="img-wrap" style="background-image: url(assets/img/News/6.jpg);">
+                                                <a href="index.html" class="post-card__link"><img src="assets/img/News/6.jpg" alt="Post title"></a>
+                                            </div>
+                                            <div class="marker marker__b-r marker__icon marker__icon_grey">
+                                                <a href="news_item" class="marker-text link" tabindex="0"><i class="icons icon-gallery"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-card__bottom-text pad-left-tablet-0">
+                                        <span class="date">22-08-2012</span>
+                                        <span class="time">12:56</span>
+                                    </div>
+                                    <div class="post-card__img-text post-card__img-text_bottom">
+                                        <div class="text-wrap">
+                                            <p class="img-text big-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-md-12 pad-col-5-mob">
+                                <div class="post-card post-card__sm">
+                                    <div class="post-card__img-wrap">
+                                        <div class="post-card__img">
+                                            <div class="img-wrap" style="background-image: url(assets/img/News/8.jpg);">
+                                                <a href="index.html" class="post-card__link"><img src="assets/img/News/8.jpg" alt="Post title"></a>
+                                            </div>
+                                            <div class="marker marker__b-r marker__icon marker__icon_grey">
+                                                <a href="news_item" class="marker-text link" tabindex="0"><i class="icons icon-video_camera"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-card__bottom-text pad-left-tablet-0">
+                                        <span class="date">22-08-2012</span>
+                                        <span class="time">12:56</span>
+                                    </div>
+                                    <div class="post-card__img-text post-card__img-text_bottom">
+                                        <div class="text-wrap">
+                                            <p class="img-text big-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-md-12 pad-col-5-mob">
+                                <div class="post-card post-card__sm">
+                                    <div class="post-card__img-wrap">
+                                        <div class="post-card__img">
+                                            <div class="img-wrap" style="background-image: url(assets/img/News/11.jpg);">
+                                                <a href="index.html" class="post-card__link"><img src="assets/img/News/11.jpg" alt="Post title"></a>
+                                            </div>
+                                            <div class="marker marker__b-r marker__icon marker__icon_grey">
+                                                <a href="news_item" class="marker-text link" tabindex="0"><i class="icons icon-gallery"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-card__bottom-text pad-left-tablet-0">
+                                        <span class="date">22-08-2012</span>
+                                        <span class="time">12:56</span>
+                                    </div>
+                                    <div class="post-card__img-text post-card__img-text_bottom">
+                                        <div class="text-wrap">
+                                            <p class="img-text big-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-md-12 pad-col-5-mob">
+                                <div class="post-card post-card__sm">
+                                    <div class="post-card__img-wrap">
+                                        <div class="post-card__img">
+                                            <div class="img-wrap" style="background-image: url(assets/img/News/12.jpg);">
+                                                <a href="index.html" class="post-card__link"><img src="assets/img/News/12.jpg" alt="Post title"></a>
+                                            </div>
+                                            <div class="marker marker__b-r marker__icon marker__icon_grey">
+                                                <a href="news_item" class="marker-text link" tabindex="0"><i class="icons icon-video_camera"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-card__bottom-text pad-left-tablet-0">
+                                        <span class="date">22-08-2012</span>
+                                        <span class="time">12:56</span>
+                                    </div>
+                                    <div class="post-card__img-text post-card__img-text_bottom">
+                                        <div class="text-wrap">
+                                            <p class="img-text big-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="f-block external-el-wrap visible-lg visible-md">
+
+                        <div class="banner-bung" style="padding: 70% 0;">
+                            BANNER
+                        </div>
+
+                    </div>
+
+                    <div class="f-block border-top pad-top-4-8em">
+                        <div class="marker marker__t-l">
+                            <a href="news_item" class="marker-text link">Новости партнеров</a>
+                        </div>
+
+                        <div class="overflow-hid">
+                            <div class="row mar-row--10-mob">
+
+                                <div class="posts-text__list cols-1 no-margin clearfix">
+
+                                    <div class="posts-text__item border-bottom-tablet">
+                                        <div class="posts-text__top-line">
+                                            <span class="time">12:56</span>
+                                            <span class="date"></span>
+                                            <span class="icons-wrap"></span>
+                                        </div>
+                                        <div class="posts-text__title-text">
+                                            <a href="news_item" class="posts-text__link"><span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in</span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="posts-text__item border-bottom-tablet">
+                                        <div class="posts-text__top-line">
+                                            <span class="time">12:56</span>
+                                            <span class="date"></span>
+                                            <span class="icons-wrap"></span>
+                                        </div>
+                                        <div class="posts-text__title-text">
+                                            <a href="news_item" class="posts-text__link"><span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in</span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="posts-text__item border-bottom-tablet">
+                                        <div class="posts-text__top-line">
+                                            <span class="time">12:56</span>
+                                            <span class="date"></span>
+                                            <span class="icons-wrap"></span>
+                                        </div>
+                                        <div class="posts-text__title-text">
+                                            <a href="news_item" class="posts-text__link"><span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in</span></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="posts-text__item border-bottom-tablet">
+                                        <div class="posts-text__top-line">
+                                            <span class="time">12:56</span>
+                                            <span class="date"></span>
+                                            <span class="icons-wrap"></span>
+                                        </div>
+                                        <div class="posts-text__title-text">
+                                            <a href="news_item" class="posts-text__link"><span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+
+                </aside>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>
+
+</div> <!-- End Page-Content -->
+</div> <!-- End Height-Page -->
+
+<footer class="main-footer">
+    <div class="content-w">
+
+        <div class="row footer-top">
+            <div class="col-md-2">
+                <div class="footer-logo">
+                    <a href="index.html"><i class="icons icon-logo"></i></a>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="footer-top-links clearfix">
+                    <div class="footer-content-left">
+                        <a href="news_item#" class="footer_text_link focus-kak-est">ФОКУС КАК ОН ЕСТЬ</a>
+                    </div>
+                    <div class="footer-content-right">
+                        <a href="news_item#" class="footer_text_link"><i class="icons icon-rss"></i>RSS</a>
+                        <a href="news_item#" class="footer_text_link">Подписка на печатный номер</a>
+                        <a href="news_item#" class="footer_text_link">Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2">
+                <div class="footer-social">
+                    <a href="news_item" class="social-link" target="_blank"><i class="icons icon-facebook"></i></a>
+                    <a href="news_item" class="social-link" target="_blank"><i class="icons icon-twitter"></i></a>
+                    <a href="news_item" class="social-link" target="_blank"><i class="icons icon-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="footer-text-wrap">
+                    <p class="footer-text-item">ФОКУС, 2008 – 2017.<br>Все права на материалы, опубликованные на данном ресурсе, принадлежат ООО "ФОКУС МЕДИА". Какое-либо использование материалов без письменного разрешения ООО "ФОКУС МЕДИА" - запрещено. При использовании материалов с данного ресурса гиперссылка www.focus.ua обязательна.<br>Данный ресурс — для пользователей возрастом от 18 лет и старше.</p>
+                    <p class="footer-text-item">Перепечатка, копирование или воспроизведение информации, содержащей ссылку на агентство ИнА "Українські Новини", в каком-либо виде строго запрещены.<br>Все материалы, которые размещены на этом сайте со ссылкой на агентство "Интерфакс-Украина", не подлежат дальнейшему воспроизведению и/или распространению в любой форме, кроме как с письменного разрешения агентства.</p>
+                    <p class="footer-text-item">Материалы с плашками "Р", "Новости партнеров", "Новости компаний", "Новости партий", "Инновации", "Позиция", "Спецпроект при поддержке" публикуются на коммерческой основе.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+
+</div> <!-- WIDTH-MAIN -->
+</div>
+
+
+
+
+
+
+
+
+
+<link href="assets/css/app.css" rel="stylesheet" type="text/css">
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
