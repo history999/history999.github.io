@@ -1,0 +1,192 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.logo-text {
+	font-size: 25px;
+	color: #18374b;
+	margin-top: 15px;
+}
+
+.line {
+	height: 1px;
+	background-color: black;
+	background-size: cover;
+}
+
+.title {
+	margin-top: 60px;
+}
+
+.title-text {
+	color: black;
+	font-size: 34px;
+}
+
+.buttonReservation {
+	font-size: 30px;
+	background-size: cover;
+	padding-top: 25px;
+	color: white;
+	padding-bottom: 25px;
+	background-color: #ff621f;
+	border-bottom: 5px solid #ff332a;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.column1, .column2 {
+	background-size: cover;
+	padding-top: 40px;
+}
+
+.column1 {
+	background-color: #ff621f;
+	height: 1270px;
+	padding-bottom: 90px;
+}
+
+.column2 {
+	background-color: #eaeaea;
+	padding-bottom: 12px;
+}
+
+.column1-date {
+	font-size: 30px;
+	color: white;
+	text-transform: uppercase;
+	margin-top: -9px;
+}
+
+.column1-lineDashed {
+	border: 1px dashed white;
+	height: 1px;
+	background-size: cover;
+}
+
+.column1-time {
+	font-size: 24px;
+	color: white;
+}
+
+.column1-fotoTitle {
+	color: white;
+	font-size: 22px;
+	margin-top: 25px;
+}
+
+.characteristics {
+	color: white;
+	font-size: 18px;
+}
+
+.column2-timeToStart_title {
+	font-weight: bold;
+	font-size: 21px;
+	color: #2b2e35;
+	text-transform: uppercase;
+}
+
+.column2-fullTime, .column2-timeToStart_fullTime {
+	background-color: #2b2e35;
+	width: 68px;
+	height: 68px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 48px;
+	color: white;
+	border-radius: 10px;
+}
+
+.column2-timeToStart_fullTime {
+	margin-left: 8px;
+}
+
+.column2-timeToStart_fullTime {
+	font-size: 14px;
+	color: #2b2e35;
+}
+
+li {
+	margin-top: 25px;
+}
+
+.column2-title {
+	font-size: 24px;
+	color: #2b2e35;
+	font-weight: bold;
+	margin-top: 45px;
+	text-transform: uppercase;
+}
+
+.column2-info {
+	font-size: 24px;
+	color: #2b2e35;
+	list-style: none;
+}
+
+.title-format {
+	font-size: 24px;
+	margin-top: 60px;
+}
+
+.button-for {
+	font-size: 36px;
+	font-weight: bold;
+	color: white;
+	background-color: #ff621f;
+	cursor: pointer;
+	margin-top: 40px;
+}
+
+.text-downButton {
+	font-size: 32px;
+	margin-top: 30px;
+}
+
+.infoBlock {
+	background-image: url(images/background.png);
+	background-size: cover;
+	padding-bottom: 7%;
+}
+
+.infoBlock-title {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.infoBlock-text {
+	font-size: 24px;
+}
+
+.button-buy {
+	font-size: 48px;
+	font-weight: bold;
+	background-color: #ff621f;
+    border-bottom: 5px solid #ff332a;
+    background-size: cover;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 500px) {
+	.button-buy {
+		font-size: 20px;
+	}
+
+	.button-for {
+		font-size: 25px;
+	}
+
+	.buttonReservation {
+		font-size: 25px;
+	}
+}

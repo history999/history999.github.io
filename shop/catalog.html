@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>проект без адаптивности</title>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="slider/jquery.bxslider.css" rel="stylesheet" />
+
+
+  </head>
+  <header>
+      <div class="row">
+        <div class="col-lg-4">
+          <p class="top-menu_left pull-left" style="color: #d12b85">Акции</p>
+          <p class="top-menu_left pull-left">О компании</p>
+          <p class="top-menu_left pull-left">Новости</p>
+          <p class="top-menu_left pull-left">Как нас найти</p>
+        </div>
+        <div class="col-lg-5 pull-right">
+          <p class="top-menu_right pull-right">Отложенные товары (0 шт.)</p>
+          <p class="top-menu_right pull-right">Регистрация</p>
+          <p class="top-menu_right pull-right">Войти в личный кабинет</p>
+          <div class="clear"></div>
+
+            <img src="img/smallCart.jpg" class="imgCart pull-right">
+            <div class="top-smallLine pull-right"></div>
+            <p class="text-cart pull-right">2 товаров на 13000 руб.</p>
+            
+        </div>   
+      </div>
+
+      <div class="row">
+        <div class="col-lg-2">
+           <a href="home.html"><img src="img/logo.jpg" style="margin-left: 10px; cursor: pointer;"></a>
+        </div>
+        <div class="col-lg-8 col-lg-offset-2">
+        <div class="row">
+        <div style="margin-top: 35px;">
+          <div class="col-lg-4">
+            <img src="img/smallPhone.jpg" class="pull-left" style="margin-top: 15px;">
+            <div class="col-lg-7 col-xs-4">
+              <p style="font-size: 12px; margin-right: 10px;">позвоните нам</p>
+              <p style="font-size: 16px; font-weight: bold;" >+7(495)123-23-33</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-xs-4">
+            <img src="img/smallSms.jpg" class="pull-left" style="margin-top: 15px;">
+            <div class="col-lg-7">
+              <p style="font-size: 12px; margin-right: 10px;">напишите нам</p>
+              <p style="font-size: 16px; font-weight: bold;" >info@test.ru</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-xs-4">
+            <img src="img/smallClock.jpg" class="pull-left" style="margin-top: 15px;">
+            <div class="col-lg-9">
+              <p style="font-size: 12px; margin-right: 10px;">мы работаем</p>
+              <p style="font-size: 16px; font-weight: bold;" >пн-птн: 10:00 - 19:00</p>
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 col-lg-offset-4">
+          <div class="center-menu">
+            <div class="center-menu_link1 pull-left"><a href="catalog.html">КАТАЛОГ ТОВАРОВ</a></div>
+            <div class="center-menu_link pull-left">БРЕНДЫ</div>
+            <div class="center-menu_link pull-left">ОПЛАТА</div>
+            <div class="center-menu_link pull-left">ДОСТАВКА</div>  
+          </div>
+        </div>
+      </div>
+  </header>
+
+  <div class="row" style="margin-top: 20px;">
+    <div class="catalog-menu col-lg-3" style="padding-right: 0px; margin-top: 5px;">
+        <div class="catalog-menu_title">
+          <div class="catalog-menu_title-icon pull-left">
+            <div class="whiteLine"></div>
+            <div class="whiteLine"></div>
+            <div class="whiteLine"></div>
+          </div>
+          <p class="catalog-menu_title-text pull-left">КАТАЛОГ ТОВАРОВ</p>
+        </div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Бензиновые триммеры</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+          <div id="catalog-menu_big">Бензиновые триммеры | Бензопилы | Бетономешалки | Газонокосилки бензиновые | Газонокосилки электрические | Гидроаккумуляторы | Граверы электрические | Дисковые пилы | Дрели ударные | Дрели-шуруповерты аккумуляторные | Дренажные насосы | Кусторезы бензиновые | Ленточные шлифмашины | Лобзики электрические | Мойки высокого давления | Мотокультиваторы и мотоблоки | Мотопомпы | Насосные станции | Оборудование Jeelex | Перфораторы | Пинцеты | Поверхностные насосы | Прочее оборудование | Расходные материалы | Рубанки электрические | Сварочное оборудование | Скважинные | Снегоуборщики | Стабилизаторы ЛАТРы | Станки для заточки цепей | Стулья табуреты кресладиваны | Тепловое оборудование | Термопистолеты | Точильные станки | Углошлифовальные машины | Ультразвуковые ванны | Фекальные насосы | Фрезерные машины | Циркуляционные насосы | Электрические триммеры | Электрогенераторы | Электропилы</div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Бензопилы</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Бетономешалки</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Газонокосилки бензиновые</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Газонокосилки электрические</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Гидроаккумуляторы</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Граверы электрические</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Дисковые пилы</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Дрели ударные</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Дрели-шуруповерты</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">аккумуляторные</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Дренажные насосы</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Кусторезы бензиновые</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Ленточные шлифмашины</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Лобзики электрические</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Мойки высокого давления</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Мотокультиваторы и мотоблоки</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Мотопомпы</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Насосные станции</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Оборудование Jeelex</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Перфораторы</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Пинцеты</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Поверхностные насосы</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Прочее оборудование</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Расходные материалы</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Рубанки электрические</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Сварочное оборудование</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Скважинные</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Снегоуборщики</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Стабилизаторы ЛАТРы</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Станки для заточки цепей</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Стулья табуреты кресладиваны</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Тепловое оборудование</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Термопистолеты</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Точильные станки</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Углошлифовальные машины</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Ультразвуковые ванны</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Фекальные насосы</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="catalog-menu_items">
+          <div class="catalog-menu_item-line pull-left"></div>
+          <p class="catalog-menu_item pull-left">Фрезерные машины</p>
+          <div class="catalog-menu_item-arrow pull-right"><img src="img/arrow.png"></div>
+        </div>
+    </div>  
+
+    <div class="col-lg-9" style="position: inherit;">
+      <div class="small_menu">
+                   <div class="small_link1">
+                       <a href="home.html">Главная</a>
+                   </div>
+                   <div style="float:left; margin-top:2px; margin-left:15px;">/</div>
+                   <div class="small_link">
+                       <p>Протеины</p>
+                   </div>
+                   <div style="float:left; margin-top:2px; margin-left:15px;">/</div>
+                   <div class="small_link">
+                       <p style="color: #d12b85;">Газонокосилки</p>
+                   </div>
+                  </div>
+
+    <div class="product">
+    <div class="product-link"></div>
+    <div class="product-line"></div>
+      <div class="product-category_title">ГАЗОНОКОСИЛКИ БЕНЗИНОВЫЕ</div>
+      
+        <div class="row" style="margin-left: 25px;margin-top: 15px">
+          <div class="product-info pull-left">
+            <div class="product-image"><a href="details.html"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></a></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>
+          <div class="product-info pull-left">
+            <div class="product2-image"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>
+          <div class="product-info pull-left">
+            <div class="product-image"><a href="details.html"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></a></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>    
+        </div>
+        <div class="row" style="margin-left: 25px;">
+          <div class="product-info pull-left">
+            <div class="product-image"><a href="details.html"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></a></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>
+          <div class="product-info pull-left">
+            <div class="product2-image"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>
+          <div class="product-info pull-left">
+            <div class="product-image"><a href="details.html"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></a></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+           <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>    
+        </div>
+      <div class="row" style="margin-left: 25px;">
+          <div class="product-info pull-left">
+            <div class="product-image"><a href="details.html"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></a></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>
+          <div class="product-info pull-left">
+            <div class="product2-image"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>
+          <div class="product-info pull-left">
+            <div class="product-image"><a href="details.html"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></a></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+           <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>    
+        </div>
+        <div class="row" style="margin-left: 25px;">
+          <div class="product-info pull-left">
+            <div class="product-image"><a href="details.html"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></a></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>
+          <div class="product-info pull-left">
+            <div class="product2-image"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>
+          <div class="product-info pull-left">
+            <div class="product-image"><a href="details.html"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></a></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+           <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>    
+        </div>
+        <div class="row" style="margin-left: 25px;">
+          <div class="product-info pull-left">
+            <div class="product-image"><a href="details.html"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></a></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>
+          <div class="product-info pull-left">
+            <div class="product2-image"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>
+          <div class="product-info pull-left">
+            <div class="product-image"><a href="details.html"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></a></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+           <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>    
+        </div>
+        
+      </div>
+
+      
+    </div>
+    	
+              
+      </div>
+
+
+
+    
+  </div>
+<div class="row">
+<div class="product">
+      <div class="product-category_title" style="margin-left: 30px;">НОВЫЕ ПОСТУПЛЕНИЯ</div>
+      
+       <ul class="bxslider">
+        <li><div class="row" style="margin-left: 25px;margin-top: 15px">
+          <div class="product-info pull-left" style="width: 25%;">
+            <div class="product-image"><a href="details.html"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></a></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>
+          <div class="product-info pull-left" style="width: 25%;">
+            <div class="product2-image"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>
+          <div class="product-info pull-left" style="width: 25%;">
+            <div class="product-image"><a href="details.html"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></a></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div> 
+          <div class="product-info pull-left" style="width: 23%;">
+            <div class="product-image"><a href="details.html"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></a></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>   
+        </div></li>
+        <li>
+        <div class="product-info pull-left" style="width: 25%; margin-top: 15px">
+            <div class="product-image"><a href="details.html"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></a></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div> 
+          <div class="row" style="margin-left: 25px;margin-top: 15px">
+          <div class="product-info pull-left" style="width: 25%;">
+            <div class="product-image"><a href="details.html"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></a></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+           <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>
+          <div class="product-info pull-left" style="width: 25%;">
+            <div class="product2-image"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>
+          <div class="product-info pull-left" style="width: 23%;">
+            <div class="product-image"><a href="details.html"><div id="product2-image_hover"><p id="product2-image_hover-text">Сечение лески -Круг<br>Толщина лески, мм 2,4<br>Длина лески, м 3<br>Подходит для моделей триммеров<br>GGT-800S(T), GGT-1000S(T), GGT-1300S(T), GGT-1500S(T)</p></div></a></div>
+            <div class="product-price text-center">15000 руб.     <span style="text-decoration: line-through; font-size: 14px;">20000 руб.</span></div>
+            <div class="product-buy text-center"><img src="img/smallCart.png" style="margin-right: 10px;">в корзину</div>
+            <div class="product-other">
+              <div style="float: left;margin-top: 4px;margin-left: 70px;"><img src="img/smallLike.png"></div>
+              <div style="float: left;margin-top: 4px;margin-left: 30px;"><img src="img/smallClip.png"></div>
+              <div class="product-other_stars">
+                <!-- stars -->
+          <span class="stars">
+                            <i class="glyphicon glyphicon-star"></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+                            <i class="glyphicon glyphicon-star" ></i>
+            </span>
+              </div>
+            </div>
+          </div>    
+        </div></li>
+      </ul>
+  <div class="text-center" style="margin-top: 50px;"><img src="img/line.png" style="width: 100%"></div>
+</div>
+
+
+
+<footer>
+  <div class="row">
+    <div class="col-lg-3" style="margin-left: 55px;">
+      <div class="footer-title">контакты</div>
+      <div class="footer-horizontalLine"></div>
+      <div class="footer-text">
+        <ul class="footer-text_list">
+          <li class="footer-text_list-li"><img src="img/footerLocation.png" class="footer-smallIMG">Адрес: Рязанский проспект, д. 24 корп. 2, <br>2 этаж, офис 3., м. Рязанский проспект. </li>
+          <li class="footer-text_list-li"><img src="img/footerPhone.png" class="footer-smallIMG">+7(495)123-23-34 <br>пнд-птн: 10.00 - 19.00 </li>
+          <li class="footer-text_list-li"><img src="img/footerEmail.png" class="footer-smallIMG">mail@test.ru <br>mail2@test.ru</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-2">
+      <div class="footer-title">мой кабинет</div>
+      <div class="footer-horizontalLine"></div>
+      <div class="footer-text">
+        <ul class="footer-text_list">
+          <li class="footer-text_list-li">Отследить заказ</li>
+          <li class="footer-text_list-li">Уведомления о товарах</li>
+          <li class="footer-text_list-li" style="color: #cc0066">Отложенные товары</li>
+          <li class="footer-text_list-li">Связь с менеджерами</li>
+          <li class="footer-text_list-li">Выйти</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-2">
+      <div class="footer-title">меню</div>
+      <div class="footer-horizontalLine"></div>
+      <div class="footer-text">
+        <ul class="footer-text_list">
+          <li class="footer-text_list-li">Купить</li>
+          <li class="footer-text_list-li">Разработчикам</li>
+          <li class="footer-text_list-li">Администрирование</li>
+          <li class="footer-text_list-li">Дизайн</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-2">
+      <div class="footer-title">статьи</div>
+      <div class="footer-horizontalLine"></div>
+      <div class="footer-text">
+        <ul class="footer-text_list">
+          <li class="footer-text_list-li">Учебные материалы</li>
+          <li class="footer-text_list-li">Наши бренды</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-2">
+      <div class="footer-title">навигация</div>
+      <div class="footer-horizontalLine"></div>
+      <div class="footer-text">
+        <ul class="footer-text_list">
+          <li class="footer-text_list-li">Прайс-лист</li>
+          <li class="footer-text_list-li">Новости</li>
+          <li class="footer-text_list-li">Отзывы</li>
+          <li class="footer-text_list-li">Карта сайта</li>
+          <li class="footer-text_list-li">Форма связи</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  
+
+  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+    <script src="slider/jquery.bxslider.min.js"></script>
+    <script src="slider/slider.js"></script>
+    <script type="text/javascript">
+          
+              // $('.catalog-menu_items').hover(function(){
+              // $('.catalog-menu_item-line').show();
+              // },
+              // function(){
+              // $('.catalog-menu_item-line').hide();
+              // });      
+    </script>	
+
+</body>
+</html>

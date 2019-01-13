@@ -1,0 +1,222 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+.clear {
+	clear: both;
+}
+
+@font-face {
+    font-family: Ubuntu; 
+    src: url(fonts/ubuntu.ttf); 
+}
+
+.row {
+	font-family: Ubuntu;
+}
+
+header {
+	background-color: #fdfbf6;
+	background-size: cover;
+	padding-top: 15px;
+	padding-bottom: 16px;
+}
+
+.header-menu {
+	list-style: none;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.header-menu_item {
+	margin-left: 34px;
+	cursor: pointer;
+}
+
+.header-menu_item:hover {
+	color: #a8353a;
+}
+
+.button-participants {
+	border: 1px solid #a8353a;
+	font-size: 14px;
+	color: #a8353a;
+	font-weight: bold;
+	border-radius: 4px;
+	padding-bottom: 5px;
+	padding-top: 4px;
+	cursor: pointer;
+	width: 140px;
+}
+
+.button-buy_tickets {
+	font-size: 14px;
+	color: white;
+	font-weight: bold;
+	border-radius: 4px;
+	padding-bottom: 5px;
+	padding-top: 4px;
+	cursor: pointer;
+	margin-left: 15px;
+	width: 140px;
+	background-color: #a8353a;
+}
+
+.chooseLanguage {
+	    width: 28px;
+    float: left;
+    margin-left: 10px;
+    margin-top: -7px;
+}
+
+.linkHome {
+	font-size: 18px;
+	color: #a8353a;
+	margin-top: 25px;
+	cursor: pointer;
+}
+
+.titlePage-redLine {
+	height: 21px;
+	background-color: #a8353a;
+	width: 7px;
+	margin-top: 11px;
+}
+
+.titlePage {
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+.backgroundColor {
+	background-color: #f6edd0;
+}
+
+.linkList {
+	margin-top: 30px;
+	margin-left: 55px;
+}
+
+.linkBlock {
+	margin-top: 30px;
+	margin-left: 5px;
+}
+
+.linkList-line123 {
+	background-color: #c8c8c8;
+	height: 5px;
+	width: 20px;
+	margin-bottom: 3px;
+}
+
+.linkBlock-MINIBLOCK {
+	background-color: #a8353a;
+	height: 10px;
+	width: 10px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+}
+
+.filter {
+	font-size: 18px;
+	color: #6e6e6e;
+	background-color: white;
+	background-size: cover;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	margin-bottom: 10px;
+}
+
+.filter-item {
+	font-size: 16px;
+	color: black;
+}
+
+.filter-item_border {
+	border: 1px solid #6e6e6e;
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+}
+
+.buttonFilter {
+	border: 1px solid #a8353a;
+	border-radius: 5px;
+	width: 225px;
+	height: 50px;
+	padding-top: 12px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 45px;
+	margin-bottom: 15px;
+}
+
+.buttonFilter:hover {
+	background-color: #a8353a;
+	color: white;
+	cursor: pointer;
+}
+
+.filter-item_okImg {
+	display: none;
+	    margin-left: 4px;
+    margin-top: 5px;
+}
+
+
+.BlockChooseItem {
+	margin-bottom: 30px;
+}
+
+.BlockChooseItem-info {
+	background-color: white;
+	background-size: cover;
+	padding-top: 15px;
+	padding-left: 15px;
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+
+footer {
+	background-color: #a8353a;
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 45px;
+		color: #491618;
+}
+
+.footer-email {
+	font-size: 18px;
+}
+
+.socialButton-button {
+	border: 1px solid #491618;
+	width: 40px;
+	height: 40px;
+	padding-left: 14px;
+	padding-top: 6px;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 520px) {
+	.chooseLanguage{
+		margin-left: 5px;
+	}
+
+	.linkList {
+		margin-left: 0px;
+	}
+}
