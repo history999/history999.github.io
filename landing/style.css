@@ -1,0 +1,88 @@
+html {
+	overflow-x: hidden;
+}
+
+.container-title {
+	margin-bottom: 25%;
+}
+
+.h1-title, .h2-title {
+	margin-top: 25%;
+	opacity:0; 
+	transition: 1s; 
+	
+	animation: show 3s 1;
+animation-fill-mode: forwards; 
+  animation-delay: 0.3s; 
+}
+
+.h2-title {
+	margin-top: 0;
+  animation-delay: 1.3s; /* Задержка перед началом */
+}
+
+.height-titleBlock {
+	height: 100%;
+}
+
+@keyframes show{
+	 0%{
+		 opacity:0;
+	 }
+	 
+	 
+	 100% {
+		 opacity:1;
+	 }
+}
+
+.span-red {
+color: red; font-weight: bold;
+}
+
+.ul-why {
+	margin-top: 5%;
+	
+}
+
+.ul-why li {
+	font-weight: 300;
+}
+
+.container-skill img{
+width: 90px;
+margin-top: 30%;
+
+}
+
+.container-skill {
+	margin-top: 15%;
+}
+
+.container-send {
+	margin-top: 10%;
+}
+
+.container-send input, 
+.container-send textarea {
+	width: 100%;
+	font-weight: 500;
+	padding-left: 10px;
+	border: 1px solid #e6e6e6;
+	border-radius: 6px;
+	margin-top: 10px;
+	height: 50px;
+}
+
+.container-send textarea {
+	height: 100px;
+}
+
+.container-send input:hover, .container-send textarea:hover  {
+	border: 2px solid red;
+}
+
+.row-send-form {
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
