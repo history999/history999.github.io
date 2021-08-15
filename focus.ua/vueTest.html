@@ -1,0 +1,148 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+.max-width{
+  width: 100%;
+}
+</style>
+  </head>
+  <body>
+    <div id="event-handling">
+
+
+
+
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-lg-12">
+      <table class="table table-bordered">
+    <thead>
+      <div class="row mb-3">
+        <div class="col-lg-5">
+          <h5 class="text-center">Currencies info</h5>
+        </div>
+        <div class="col-lg-3">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle max-width" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Edit table
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#" @click="addAndDelete('last_update')">Last update</a>
+              <a class="dropdown-item" href="#" @click="addAndDelete('code')">Code</a>
+              <a class="dropdown-item" href="#" @click="addAndDelete('name')">Fullname</a>
+              <a class="dropdown-item" href="#" @click="addAndDelete('deposit_enabled')">Enabled Deposit</a>
+              <a class="dropdown-item" href="#" @click="addAndDelete('withdrawal_enabled')">Enabled Withdrawal</a>
+              <a class="dropdown-item" href="#" @click="addAndDelete('trading_enabled')">Enabled Trading</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <input type="text" class="form-control" id="validationCustom01" v-model="search" placeholder="Search"  >
+        </div>
+      </div>
+
+      <tr>
+        <th scope="col" v-show="filter.includes('last_update')" @click='sort("last_update_at")'>{{ sortBy === 'last_update_at' ? '*' : '' }}Last update</th>
+        <th scope="col" v-show="filter.includes('code')"@click='sort("code")'>{{ sortBy === 'code' ? '*' : '' }}Code</th>
+        <th scope="col" v-show="filter.includes('name')"@click='sort("name")'>{{ sortBy === 'name' ? '*' : '' }}Fullname</th>
+        <th scope="col" v-show="filter.includes('deposit_enabled')"@click='sort("deposit_enabled")'>{{ sortBy === 'deposit_enabled' ? '*' : '' }}Enabled Deposit</th>
+        <th scope="col" v-show="filter.includes('withdrawal_enabled')"@click='sort("withdrawal_enabled")'>{{ sortBy === 'withdrawal_enabled' ? '*' : '' }}Enabled Withdrawal</th>
+        <th scope="col" v-show="filter.includes('trading_enabled')"@click='sort("trading_enabled")'>{{ sortBy === 'trading_enabled' ? '*' : '' }}Enabled Trading</th>
+      </tr>
+    </thead>
+    <tbody v-for="item in filteredItems">
+      <tr>
+        <th scope="row" v-show="filter.includes('last_update')" >{{ dateAndTime(item.last_update_at) }}</th>
+        <td v-show="filter.includes('code')">{{item.code}}</td>
+        <td v-show="filter.includes('name')">{{item.name}}</td>
+          <td v-if="item.deposit_enabled===0" v-show="filter.includes('deposit_enabled')">No</td>
+          <td v-else v-show="filter.includes('deposit_enabled')">Yes</td>
+          <td v-if="item.withdrawal_enabled ===0" v-show="filter.includes('withdrawal_enabled')">No</td>
+          <td v-else v-show="filter.includes('withdrawal_enabled')">Yes</td>
+          <td v-show="filter.includes('trading_enabled')" v-if="item.trading_enabled ===0">No</td>
+          <td v-show="filter.includes('trading_enabled')" v-else>Yes</td>
+
+
+      </tr>
+    </tbody>
+  </table>
+    </div>
+  </div>
+</div>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/vue@next"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script >
+      'use strict'
+
+      const EventHandling = {
+        data() {
+          return {
+            info: [],
+            search: '',
+            filter: ['last_update', 'code', 'name', 'deposit_enabled', 'withdrawal_enabled', 'trading_enabled'],
+            sortBy: "last_update_at",
+    sortOrder: 1
+          }
+        },
+
+        methods: {
+          addAndDelete(column){
+            if(this.filter.includes(column)){
+               this.filter.splice(this.filter.indexOf(column),1)
+            } else {
+              this.filter.push(column)
+            }
+          },
+          sort: function(sortBy){
+     if(this.sortBy === sortBy) {
+       this.sortOrder = -this.sortOrder;
+      } else {
+       this.sortBy = sortBy
+      }
+    },
+    dateAndTime(len){
+
+      if(len.length>16){
+        return len.slice(0, 16);
+      }
+    }
+        },
+        mounted() {
+          axios
+      .get('https://history999.github.io/currencies.json')
+      .then(response => (this.info = response.data));
+    },
+    computed: {
+      filteredItems() {
+         let fil1 = [...this.info]
+        .map(i => ({...i, last_update:parseFloat(i.last_update)}))
+        .sort((a,b) => {
+         if (a[this.sortBy] >= b[this.sortBy]) {
+         return this.sortOrder
+          }
+        return -this.sortOrder
+
+      })
+
+      return fil1.filter(item => {
+         return item.name.toLowerCase().indexOf(this.search.toLowerCase()) > -1;
+      })
+    }
+
+
+
+  }
+}
+
+
+      Vue.createApp(EventHandling).mount('#event-handling')
+    </script>
+  </body>
+</html>
