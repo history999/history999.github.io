@@ -79,67 +79,63 @@
 <script src="https://unpkg.com/vue@next"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
     <script >
-      'use strict'
+    'use strict'
 
-      const EventHandling = {
+    const EventHandling = {
         data() {
           return {
             info: [],
             search: '',
             filter: ['last_update', 'code', 'name', 'deposit_enabled', 'withdrawal_enabled', 'trading_enabled'],
             sortBy: "last_update_at",
-    sortOrder: 1
+            sortOrder: 1
           }
         },
 
         methods: {
-          addAndDelete(column){
-            if(this.filter.includes(column)){
-               this.filter.splice(this.filter.indexOf(column),1)
-            } else {
-              this.filter.push(column)
+            addAndDelete(column){
+                if(this.filter.includes(column)){
+                this.filter.splice(this.filter.indexOf(column),1)
+                } else {
+                this.filter.push(column)
+                }
+            },
+            sort: function(sortBy){
+                if(this.sortBy === sortBy) {
+                    this.sortOrder = -this.sortOrder;
+                } else {
+                    this.sortBy = sortBy
+                    }
+            },
+            dateAndTime(len){
+                if(len.length>16){
+                    return len.slice(0, 16);
+                }
             }
-          },
-          sort: function(sortBy){
-     if(this.sortBy === sortBy) {
-       this.sortOrder = -this.sortOrder;
-      } else {
-       this.sortBy = sortBy
-      }
-    },
-    dateAndTime(len){
-
-      if(len.length>16){
-        return len.slice(0, 16);
-      }
-    }
         },
         mounted() {
           axios
-      .get('https://history999.github.io/currencies.json')
-      .then(response => (this.info = response.data));
-    },
-    computed: {
-      filteredItems() {
-         let fil1 = [...this.info]
-        .map(i => ({...i, last_update:parseFloat(i.last_update)}))
-        .sort((a,b) => {
-         if (a[this.sortBy] >= b[this.sortBy]) {
-         return this.sortOrder
-          }
-        return -this.sortOrder
+            .get('https://history999.github.io/currencies.json')
+            .then(response => (this.info = response.data));
+        },
+        computed: {
+            filteredItems() {
+                let fil1 = [...this.info]
+                    .map(i => ({...i, last_update:parseFloat(i.last_update)}))
+                    .sort((a,b) => {
+                        if (a[this.sortBy] >= b[this.sortBy]) {
+                            return this.sortOrder
+                        }
+                        return -this.sortOrder
+                    })
 
-      })
-
-      return fil1.filter(item => {
-         return item.name.toLowerCase().indexOf(this.search.toLowerCase()) > -1;
-      })
+                return fil1.filter(item => {
+                    return item.name.toLowerCase().indexOf(this.search.toLowerCase()) > -1;
+                })
+            }
+        }
+        
     }
-
-
-
-  }
-}
 
 
       Vue.createApp(EventHandling).mount('#event-handling')
